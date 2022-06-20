@@ -1,0 +1,236 @@
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.AssemblyReference.cache
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.GenerateResource.cache
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfoInputs.cache
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfo.cs
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CoreCompileInputs.cache
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.exe
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.deps.json
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.json
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.dev.json
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CopyComplete
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.genruntimeconfig.cache
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCliente.resources
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroProduto.resources
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastrarUsuario.resources
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consutarVenda.resources
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_login.resources
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Frm_menuPrincipal.resources
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_vendas.resources
+C:\Users\bianc\source\repos\aaaaaaa\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroFornecedor.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.AssemblyReference.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\PavVendas.ui.frm_vendas.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCliente.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroFornecedor.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroProduto.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastrarUsuario.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroVendas.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consutarVenda.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasPagar.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasReceber.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_login.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Frm_menuPrincipal.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.GenerateResource.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfoInputs.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfo.cs
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CoreCompileInputs.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.exe
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.deps.json
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.json
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.dev.json
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CopyComplete
+C:\Users\bianc\OneDrive\Área de Trabalho\ccccccc\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.genruntimeconfig.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.AssemblyReference.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Properties.Resources.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\PavVendas.ui.frm_vendas.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCliente.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCompra.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroFornecedor.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroProduto.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastrarUsuario.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroVendas.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consultarCompra.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consultarVenda.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasPagar.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasReceber.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_login.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Frm_menuPrincipal.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.GenerateResource.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfoInputs.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfo.cs
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CoreCompileInputs.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.exe
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.deps.json
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.json
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.dev.json
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CopyComplete
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.genruntimeconfig.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_fechamentoCaixa.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.exe
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.deps.json
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.json
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.dev.json
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Properties.Resources.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\PavVendas.ui.frm_vendas.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCliente.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCompra.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroFornecedor.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroProduto.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastrarUsuario.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroVendas.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consultarCompra.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consultarVenda.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasPagar.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasReceber.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_fechamentoCaixa.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_login.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Frm_menuPrincipal.resources
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CopyComplete
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.genruntimeconfig.cache
+C:\Users\Admin\Downloads\Sistema-de-Comercio-de-Produtos-bianca (2)\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_selecionarCliente.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.exe
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.deps.json
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.json
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.dev.json
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.AssemblyReference.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Properties.Resources.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\PavVendas.ui.frm_vendas.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCliente.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCompra.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroFornecedor.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroProduto.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastrarUsuario.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroVendas.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consultarCompra.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consultarVenda.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasPagar.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasReceber.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_fechamentoCaixa.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_login.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Frm_menuPrincipal.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_selecionarCliente.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.GenerateResource.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfoInputs.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfo.cs
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CoreCompileInputs.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CopyComplete
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.genruntimeconfig.cache
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_selecionarProduto.resources
+C:\Users\bianc\OneDrive\Área de Trabalho\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_selecionarFornecedor.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.exe
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.deps.json
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.json
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Properties.Resources.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\PavVendas.ui.frm_vendas.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCliente.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroCompra.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroFornecedor.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroProduto.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastrarUsuario.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_cadastroVendas.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consultarCompra.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_consultarVenda.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasPagar.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_contasReceber.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_fechamentoCaixa.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_login.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.Frm_menuPrincipal.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_selecionarCliente.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_selecionarFornecedor.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.ui.Frm_selecionarProduto.resources
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.csproj.CopyComplete
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.dll
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.pdb
+C:\Users\Admin\Desktop\Bianca\Sistema-de-Comercio-de-Produtos-bianca\aaaaaaa\obj\Debug\netcoreapp3.1\aaaaaaa.genruntimeconfig.cache
