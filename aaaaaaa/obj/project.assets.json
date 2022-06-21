@@ -861,11 +861,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bianc\\OneDrive\\Área de Trabalho\\Sistema-de-Comercio-de-Produtos-bianca\\aaaaaaa\\aaaaaaa.csproj",
+      "projectUniqueName": "C:\\Users\\bianc\\OneDrive\\Área de Trabalho\\mm\\Sistema-de-Comercio-de-Produtos\\aaaaaaa\\aaaaaaa.csproj",
       "projectName": "aaaaaaa",
-      "projectPath": "C:\\Users\\bianc\\OneDrive\\Área de Trabalho\\Sistema-de-Comercio-de-Produtos-bianca\\aaaaaaa\\aaaaaaa.csproj",
+      "projectPath": "C:\\Users\\bianc\\OneDrive\\Área de Trabalho\\mm\\Sistema-de-Comercio-de-Produtos\\aaaaaaa\\aaaaaaa.csproj",
       "packagesPath": "C:\\Users\\bianc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bianc\\OneDrive\\Área de Trabalho\\Sistema-de-Comercio-de-Produtos-bianca\\aaaaaaa\\obj\\",
+      "outputPath": "C:\\Users\\bianc\\OneDrive\\Área de Trabalho\\mm\\Sistema-de-Comercio-de-Produtos\\aaaaaaa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bianc\\AppData\\Roaming\\NuGet\\NuGet.Config",

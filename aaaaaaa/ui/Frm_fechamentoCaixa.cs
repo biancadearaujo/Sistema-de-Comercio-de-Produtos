@@ -20,44 +20,10 @@ namespace aaaaaaa.ui
         {
             InitializeComponent();
             LerDoBanco();
-            popularGrid();
-            popularGridd();
+            atualizarGrid();
         }
 
-        private void popularGrid()
-        {
-            ControladorCadastroContasPagar compras = new ControladorCadastroContasPagar();
-            List<Compra> list = new List<Compra>();
-            list = compras.buscarComprasBaixa();
 
-            dgvFechamentoCaixa.Rows.Clear();
-
-            foreach (Compra compra in list)
-            {
-                String[] linha = {
-                    compra.idCompra.ToString(), compra.data.ToString(), compra.hora, compra.idFornecedor.ToString(),
-                    compra.totalCompra.ToString(), compra.situacaoCompra
-                };
-                dgvFechamentoCaixa.Rows.Add(linha);
-            }
-        }
-
-        private void popularGridd()
-        {
-            ControladorCadastroContasReceber vendas = new ControladorCadastroContasReceber();
-            List<Venda> list = new List<Venda>();
-            list = vendas.buscarVendasBaixa();
-
-            dgvFechamentoCaixa.Rows.Clear();
-            foreach (Venda venda in list)
-            {
-                String[] linha = {
-                    venda.idVenda.ToString(), venda.data.ToString(), venda.hora, venda.idCliente.ToString(),
-                    venda.totalVenda.ToString(), venda.situacaoVenda
-                };
-                dgvFechamentoCaixa.Rows.Add(linha);
-            }
-        }
 
         private void atualizarGrid()
         {

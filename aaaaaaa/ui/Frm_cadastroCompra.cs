@@ -45,7 +45,6 @@ namespace aaaaaaa.ui
         {
             if (produtoEscolhido.idProduto.ToString() != "0")
             {
-
                 float valor = float.Parse(produtoEscolhido.preco.ToString()) * Int32.Parse(txtQuantidade.Text);
                 MessageBox.Show("" + valor);
                 String[] linha = {
@@ -63,6 +62,10 @@ namespace aaaaaaa.ui
                 txtValorTotal.Text = valorFinal.ToString();
                 txtSubtotal.Text = valorFinal.ToString();
                 produtoEscolhido = new Produto();
+            }
+            else if (Int32.Parse(txtQuantidade.Text) == 0)
+            {
+                MessageBox.Show("Selecione um produto");
             }
             else
             {
@@ -120,9 +123,12 @@ namespace aaaaaaa.ui
             DateTime thisDay = DateTime.Now;
             string data = thisDay.ToString("yyyy-MM-dd");
             string hora = thisDay.ToString("HH:mm:ss");
+            //string dataVencimento = thisDay.AddDays(30).ToString("yyyy-MM-dd");
 
             Compra venda = new Compra();
+            MovimentacaoCaixa caixa = new MovimentacaoCaixa();
             venda.idCompra = ControladorCadastroCompra.BuscarMaiorID() + 1;
+            caixa.idCaixa = ControladorCadastroMovimentacaoCaixa.BuscarMaiorID() + 1;
             venda.data = data;
             venda.hora = hora;
             venda.idFornecedor = Int32.Parse(idClienteSelecionado.Text);
@@ -166,6 +172,24 @@ namespace aaaaaaa.ui
                 meioPagamento = "cartao_credito";
             }
             return meioPagamento;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            if (dgvAdicionarProduto.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Nenhum item selecionado!", "atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                dgvAdicionarProduto.Rows.RemoveAt(dgvAdicionarProduto.CurrentRow.Index);
+            }
         }
     }
 }

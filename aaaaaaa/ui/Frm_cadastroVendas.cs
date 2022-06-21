@@ -4,10 +4,7 @@ using aaaaaaa.Persistencia;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
+using System.IO;
 using System.Windows.Forms;
 
 namespace aaaaaaa.ui
@@ -27,7 +24,7 @@ namespace aaaaaaa.ui
 
         private void btnAdicionarCliente_Click(object sender, EventArgs e)
         {
-            ui.Frm_selecionarCliente frm = new ui.Frm_selecionarCliente(clienteSelecionado,idClienteSelecionado);
+            ui.Frm_selecionarCliente frm = new ui.Frm_selecionarCliente(clienteSelecionado, idClienteSelecionado);
             frm.Show();
 
         }
@@ -51,9 +48,12 @@ namespace aaaaaaa.ui
             {
                 MessageBox.Show("Quantidade acima do estoque");
             }
+            else if (Int32.Parse(txtQuantidade.Text) == 0)
+            {
+                MessageBox.Show("Selecione um produto");
+            }
             else if (produtoEscolhido.idProduto.ToString() != "0")
             {
-
                 float valor = float.Parse(produtoEscolhido.preco.ToString()) * Int32.Parse(txtQuantidade.Text);
                 MessageBox.Show("" + valor);
                 String[] linha = {
@@ -76,7 +76,7 @@ namespace aaaaaaa.ui
             {
                 MessageBox.Show("Selecione um produto");
             }
-           
+
         }
 
         private void txtTotalPago_Leave(object sender, EventArgs e)
@@ -89,7 +89,7 @@ namespace aaaaaaa.ui
             }
             else
             {
-                txtTroco.Text = "0"; 
+                txtTroco.Text = "0";
             }
         }
 
@@ -103,14 +103,14 @@ namespace aaaaaaa.ui
 
             int qtdItens = dgvAdicionarProduto.RowCount - 1;
 
-            if(qtdItens <= 0)
+            if (qtdItens <= 0)
             {
                 MessageBox.Show("Selecione um ou mais produtos para finalizar venda");
                 return;
             }
 
             //Adicionando id e preço do produto na lista de produtos 'lista'
-            for(int i = 0; i < qtdItens; i++)
+            for (int i = 0; i < qtdItens; i++)
             {
                 ItemVenda ven = new ItemVenda();
                 ven.idProduto = Int32.Parse(dgvAdicionarProduto.Rows[i].Cells[0].Value.ToString());
@@ -131,7 +131,9 @@ namespace aaaaaaa.ui
             string hora = thisDay.ToString("HH:mm:ss");
 
             Venda venda = new Venda();
+            MovimentacaoCaixa caixa = new MovimentacaoCaixa();
             venda.idVenda = ControladorCadastroVenda.BuscarMaiorID() + 1;
+            caixa.idCaixa = ControladorCadastroMovimentacaoCaixa.BuscarMaiorID() + 1;
             venda.data = data;
             venda.hora = hora;
             venda.idCliente = Int32.Parse(idClienteSelecionado.Text);
@@ -140,9 +142,11 @@ namespace aaaaaaa.ui
             venda.formaPagamento = checarMeioPagamento();
             venda.itens = listaProdutos;
 
+            Console.ReadLine();
+
             BancoDados.obterInstancia().conectar();
             BancoDados.obterInstancia().iniciarTransacao();
-            String comando = "insert into contareceber (id_conta_receber,id_cliente,data_lancamento,data_vencimento,valor,recebido) VALUES ('" + venda.idVenda+ "','" + venda.idCliente + "','" + venda.data + "','" + venda.data + "','" + venda.totalVenda + "','0')";
+            String comando = "insert into contareceber (id_conta_receber,id_cliente,data_lancamento,data_vencimento,valor,recebido) VALUES ('" + venda.idVenda + "','" + venda.idCliente + "','" + venda.data + "','" + venda.data + "','" + venda.totalVenda + "','0')";
             MySqlCommand comandoUpdate = new MySqlCommand(comando, BancoDados.obterInstancia().obterConexao());
             comandoUpdate.ExecuteNonQuery();
             BancoDados.obterInstancia().confirmarTransacao();
@@ -175,6 +179,24 @@ namespace aaaaaaa.ui
                 meioPagamento = "cartao_credito";
             }
             return meioPagamento;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            if(dgvAdicionarProduto.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Nenhum item selecionado!", "atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                dgvAdicionarProduto.Rows.RemoveAt(dgvAdicionarProduto.CurrentRow.Index);
+            }
         }
     }
 }

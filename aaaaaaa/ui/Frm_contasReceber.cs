@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
@@ -19,9 +20,7 @@ namespace aaaaaaa.ui
         public Frm_contasReceber()
         {
             InitializeComponent();
-            LerDoBanco();
             popularGrid();
-            atualizarGrid();
         }
 
         private void popularGrid()
@@ -34,49 +33,11 @@ namespace aaaaaaa.ui
             foreach (Venda venda in list)
             {
                 String[] linha = {
-                    venda.idVenda.ToString(), venda.data.ToString(), venda.hora, venda.idCliente.ToString(),
+                    venda.idVenda.ToString(), venda.data, venda.hora, venda.idCliente.ToString(),
                     venda.totalVenda.ToString(), venda.situacaoVenda
                 };
                 dataGridView1.Rows.Add(linha);
             }
-        }
-
-        private void atualizarGrid()
-        {
-            dataGridView1.Rows.Clear();
-            // ve se tem como trazer o nome e nao o id com cliente
-            foreach (Venda venda in Lista)
-            {
-                String[] linha = {
-                    venda.idVenda.ToString(), venda.data,  venda.idCliente.ToString(),
-                    venda.totalVenda.ToString(), venda.situacaoVenda
-                };
-                dataGridView1.Rows.Add(linha);
-            }
-        }
-
-        public void LerDoBanco(String SQL = "SELECT venda.* FROM venda right join contareceber cr on (cr.id_conta_receber = venda.id_venda) where cr.recebido = 0")
-        {
-            BancoDados.obterInstancia().conectar();
-            MySqlCommand comandoSelecao = new MySqlCommand(SQL, BancoDados.obterInstancia().obterConexao());
-            BancoDados.obterInstancia().iniciarTransacao();
-            Lista.Clear();
-            try
-            {
-                MySqlDataReader leitorDados = comandoSelecao.ExecuteReader();
-                while (leitorDados.Read())
-                {
-                    Venda entidade = new Venda();
-                    entidade.lerDados(leitorDados);
-                    Lista.Add(entidade);
-                }
-                leitorDados.Close();
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-            BancoDados.obterInstancia().desconectar();
         }
 
         private void btnGerar_Click(object sender, EventArgs e)
@@ -99,11 +60,10 @@ namespace aaaaaaa.ui
                 filterTipo = "pagas";
             }
 
-            ControladorCadastroContasReceber venda = new ControladorCadastroContasReceber();
+            /*ControladorCadastroContasReceber venda = new ControladorCadastroContasReceber();
             List<ContasReceber> Lista = venda.buscarVendasRelatorio(filterTipo);
 
-            //instalar a biblioteca
-           /* StreamWriter sw = new StreamWriter("./Relatorios/relatorio.txt");
+            StreamWriter sw = new StreamWriter("./Relatorios/relatorio.txt");
 
             foreach (ContasReceber ven in Lista)
             {

@@ -44,7 +44,7 @@ namespace aaaaaaa.Controladores
         //retonar a exclusao do contato
         override protected string criarComandoExclusao()
         {
-            return "DELETE FROM fornecedor WHERE id_fornecedor = @id_fornecerdor";
+            return "DELETE FROM fornecedor WHERE id_fornecedor = @id_fornecedor";
         }
 
         //retornar os paramentros referente as operacoes de inserir, atualizar, excluir e selecionar

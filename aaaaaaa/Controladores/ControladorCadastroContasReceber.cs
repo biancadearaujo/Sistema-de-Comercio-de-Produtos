@@ -172,5 +172,35 @@ namespace aaaaaaa.Controladores
             comandoUpdate.ExecuteNonQuery();
             BancoDados.obterInstancia().confirmarTransacao();
         }
+
+        public static int BuscarMaiorID()
+        {
+            ContasReceber entidade = new ContasReceber();
+            String SQL = "SELECT * FROM contareceber ORDER BY id_cliente DESC LIMIT 0, 1";
+
+            BancoDados.obterInstancia().conectar();
+            MySqlCommand comandoSelecao = new MySqlCommand(SQL, BancoDados.obterInstancia().obterConexao());
+            BancoDados.obterInstancia().iniciarTransacao();
+            try
+            {
+                MySqlDataReader leitorDados = comandoSelecao.ExecuteReader();
+                if (leitorDados.Read())
+                {
+                    entidade.lerDados(leitorDados);
+                }
+                else
+                {
+                    entidade.idContaReceber = 0;
+                }
+                leitorDados.Close();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            BancoDados.obterInstancia().desconectar();
+
+            return entidade.idContaReceber;
+        }
     }
 }

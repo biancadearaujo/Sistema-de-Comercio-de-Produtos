@@ -82,31 +82,73 @@ namespace aaaaaaa.ui
             usuario.nome = txtNome.Text;
             usuario.senha = txtSenha.Text;
 
-            BancoDados.obterInstancia().conectar();
-            ControladorCadastroUsuario controladorCadastroUsuario = new ControladorCadastroUsuario();
-            controladorCadastroUsuario.incluir(usuario);
-            BancoDados.obterInstancia().desconectar();
-            LerDoBanco();
-            atualizarGrid();
-            limpar();
+            if (txtNome.Text == "" || txtSenha.Text == "")
+            {
+                MessageBox.Show("Preenchimento incompleto!");
+            }
+            else
+            {
+                BancoDados.obterInstancia().conectar();
+                ControladorCadastroUsuario controladorCadastroUsuario = new ControladorCadastroUsuario();
+                controladorCadastroUsuario.incluir(usuario);
+                BancoDados.obterInstancia().desconectar();
+                LerDoBanco();
+                atualizarGrid();
+                limpar();
+            }
         }
 
         private void btnAlterar_Click(object sender, EventArgs e)
         {
+            Usuario usuario = new Usuario();
+            usuario.idUsuario = ControladorCadastroUsuario.BuscarMaiorID() + 1;
+            usuario.nome = txtNome.Text;
+            usuario.senha = txtSenha.Text;
+
+            if (txtNome.Text == "" || txtSenha.Text == "")
+            {
+                MessageBox.Show("Preenchimento incompleto!");
+            }
+            else
+            {
+                /*BancoDados.obterInstancia().conectar();
+                ControladorCadastroUsuario controladorCadastroUsuario = new ControladorCadastroUsuario();
+                controladorCadastroUsuario.incluir(usuario);
+                BancoDados.obterInstancia().desconectar();*/
+
+                /*BancoDados.obterInstancia().conectar();
+                BancoDados.obterInstancia().iniciarTransacao();
+                String comando = "update set usuario (nome,senha) VALUES ('" + usuario.nome + "','" + usuario.senha + "','0') where (id_usuario = '" + usuario.idUsuario + "')";
+                MySqlCommand comandoUpdate = new MySqlCommand(comando, BancoDados.obterInstancia().obterConexao());
+                comandoUpdate.ExecuteNonQuery();
+                BancoDados.obterInstancia().confirmarTransacao();*/
+
+                LerDoBanco();
+                atualizarGrid();
+                limpar();
+            }
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-            Usuario usuario = new Usuario();
-            if (dgvUsuario.SelectedRows[0].Cells[0].Value != null)
+            if (dgvUsuario.SelectedRows.Count == 0)
             {
-                usuario.idUsuario = int.Parse(dgvUsuario.SelectedRows[0].Cells[0].Value.ToString());
-                BancoDados.obterInstancia().conectar();
-                ControladorCadastroUsuario controlador = new ControladorCadastroUsuario();
-                controlador.excluir(usuario);
-                BancoDados.obterInstancia().desconectar();
-                LerDoBanco();
-                atualizarGrid();
+                MessageBox.Show("Nenhum cliente selecionado!", "atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                Usuario usuario = new Usuario();
+                if (dgvUsuario.SelectedRows[0].Cells[0].Value != null)
+                {
+                    usuario.idUsuario = int.Parse(dgvUsuario.SelectedRows[0].Cells[0].Value.ToString());
+                    BancoDados.obterInstancia().conectar();
+                    ControladorCadastroUsuario controlador = new ControladorCadastroUsuario();
+                    controlador.excluir(usuario);
+                    BancoDados.obterInstancia().desconectar();
+                    LerDoBanco();
+                    atualizarGrid();
+                }
             }
     }
 
@@ -154,6 +196,27 @@ namespace aaaaaaa.ui
                     }
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (dgvUsuario.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Nenhum cliente selecionado!", "atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                String nomeUsuario = (string)dgvUsuario.SelectedRows[0].Cells[0].Value;
+                String senhaUsuario = (string)dgvUsuario.SelectedRows[0].Cells[1].Value;
+                txtNome.Text = nomeUsuario;
+                txtSenha.Text = senhaUsuario;
+            } 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            limpar();
         }
     }
 }

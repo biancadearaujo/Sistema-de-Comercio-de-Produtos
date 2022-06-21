@@ -31,7 +31,6 @@ namespace aaaaaaa.ui
         {
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnSair = new System.Windows.Forms.Button();
-            this.btnPesquisar = new System.Windows.Forms.Button();
             this.btnImprimir = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dgvFechamentoCaixa = new System.Windows.Forms.DataGridView();
@@ -57,7 +56,6 @@ namespace aaaaaaa.ui
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.panel2.Controls.Add(this.btnSair);
-            this.panel2.Controls.Add(this.btnPesquisar);
             this.panel2.Controls.Add(this.btnImprimir);
             this.panel2.Location = new System.Drawing.Point(685, 12);
             this.panel2.Name = "panel2";
@@ -68,7 +66,7 @@ namespace aaaaaaa.ui
             // 
             this.btnSair.BackColor = System.Drawing.Color.White;
             this.btnSair.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnSair.Location = new System.Drawing.Point(28, 195);
+            this.btnSair.Location = new System.Drawing.Point(28, 121);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(170, 70);
             this.btnSair.TabIndex = 10;
@@ -76,22 +74,11 @@ namespace aaaaaaa.ui
             this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // btnPesquisar
-            // 
-            this.btnPesquisar.BackColor = System.Drawing.Color.White;
-            this.btnPesquisar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnPesquisar.Location = new System.Drawing.Point(28, 21);
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(170, 70);
-            this.btnPesquisar.TabIndex = 7;
-            this.btnPesquisar.Text = "Pesquisar";
-            this.btnPesquisar.UseVisualStyleBackColor = false;
-            // 
             // btnImprimir
             // 
             this.btnImprimir.BackColor = System.Drawing.Color.White;
             this.btnImprimir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnImprimir.Location = new System.Drawing.Point(28, 108);
+            this.btnImprimir.Location = new System.Drawing.Point(28, 17);
             this.btnImprimir.Name = "btnImprimir";
             this.btnImprimir.Size = new System.Drawing.Size(170, 70);
             this.btnImprimir.TabIndex = 9;
@@ -249,7 +236,6 @@ namespace aaaaaaa.ui
 
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnSair;
-        private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.Button btnImprimir;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dgvFechamentoCaixa;

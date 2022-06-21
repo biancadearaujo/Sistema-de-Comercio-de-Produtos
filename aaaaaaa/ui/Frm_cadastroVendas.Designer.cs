@@ -70,6 +70,7 @@ namespace aaaaaaa.ui
             this.clienteSelecionado = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.btnAdicionarCliente = new System.Windows.Forms.Button();
             this.btnAdicionarProduto = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
@@ -527,6 +528,7 @@ namespace aaaaaaa.ui
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.btnAdicionarCliente);
             this.panel2.Controls.Add(this.btnAdicionarProduto);
             this.panel2.Controls.Add(this.btnExcluir);
@@ -535,6 +537,18 @@ namespace aaaaaaa.ui
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(235, 892);
             this.panel2.TabIndex = 25;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button2.Location = new System.Drawing.Point(28, 340);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(170, 70);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Sair";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnAdicionarCliente
             // 
@@ -573,6 +587,7 @@ namespace aaaaaaa.ui
             this.btnExcluir.TabIndex = 9;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // Frm_cadastroVendas
             // 
@@ -647,5 +662,6 @@ namespace aaaaaaa.ui
         private System.Windows.Forms.DataGridViewTextBoxColumn valor;
         private System.Windows.Forms.DataGridViewTextBoxColumn unidade;
         private System.Windows.Forms.DataGridViewTextBoxColumn total;
+        private System.Windows.Forms.Button button2;
     }
 }

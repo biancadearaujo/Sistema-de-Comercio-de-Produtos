@@ -77,34 +77,83 @@ namespace aaaaaaa.ui
             fornecedor.uf = cbUf.Text;
             fornecedor.cep = txtCep.Text;
 
-            BancoDados.obterInstancia().conectar();
-            ControladorCadastroFornecedor controladorCadastroFornecedor = new ControladorCadastroFornecedor();
-            controladorCadastroFornecedor.incluir(fornecedor);
-            BancoDados.obterInstancia().desconectar();
+            if (txtNome.Text == "" || txtTelefone.Text == "" || txtEmail.Text == "" || txtRua.Text == "" || txtNumero.Text == "" || txtComplemento.Text == "" || txtBairro.Text == "" || txtCidade.Text == "" || cbUf.Text == "" || txtCep.Text == "")
+            {
+                MessageBox.Show("Preenchimento incompleto!");
+            }
+            else
+            {
+                BancoDados.obterInstancia().conectar();
+                ControladorCadastroFornecedor controladorCadastroFornecedor = new ControladorCadastroFornecedor();
+                controladorCadastroFornecedor.incluir(fornecedor);
+                BancoDados.obterInstancia().desconectar();
 
-            LerDoBanco();
-            atualizarGrid();
-            limpar();
+                LerDoBanco();
+                atualizarGrid();
+                limpar();
+            } 
         }
 
         private void btnAlterar_Click(object sender, EventArgs e)
         {
+            Fornecedor fornecedor = new Fornecedor();
+            fornecedor.idFornecedor = ControladorCadastroFornecedor.BuscarMaiorID() + 1;
+            fornecedor.nome = txtNome.Text;
+            fornecedor.telefone = txtTelefone.Text;
+            fornecedor.email = txtEmail.Text;
+            fornecedor.rua = txtRua.Text;
+            fornecedor.numero = txtNumero.Text;
+            fornecedor.complemento = txtComplemento.Text;
+            fornecedor.bairro = txtBairro.Text;
+            fornecedor.cidade = txtCidade.Text;
+            fornecedor.uf = cbUf.Text;
+            fornecedor.cep = txtCep.Text;
 
+            if (txtNome.Text == "" || txtTelefone.Text == "" || txtEmail.Text == "" || txtRua.Text == "" || txtNumero.Text == "" || txtComplemento.Text == "" || txtBairro.Text == "" || txtCidade.Text == "" || cbUf.Text == "" || txtCep.Text == "")
+            {
+                MessageBox.Show("Preenchimento incompleto!");
+            }
+            else
+            {
+                /*BancoDados.obterInstancia().conectar();
+                ControladorCadastroFornecedor controladorCadastroFornecedor = new ControladorCadastroFornecedor();
+                controladorCadastroFornecedor.atualizar(fornecedor);
+                BancoDados.obterInstancia().desconectar();*/
+
+                /*BancoDados.obterInstancia().conectar();
+                BancoDados.obterInstancia().iniciarTransacao();
+                String comando = "update set fornecedor (nome,telefone,email,rua,numero,complemento,bairro,cidade,uf,cep) VALUES ('" + fornecedor.nome + "','" + fornecedor.telefone + "','" + fornecedor.email + "','" + fornecedor.rua + "','" + fornecedor.numero + "','" + fornecedor.complemento + "','" + fornecedor.bairro + "','" + fornecedor.cidade + "','" + fornecedor.uf + "','" + fornecedor.cep + "','0') where (id_fornecedor = '" + fornecedor.idFornecedor + "')";
+                MySqlCommand comandoUpdate = new MySqlCommand(comando, BancoDados.obterInstancia().obterConexao());
+                comandoUpdate.ExecuteNonQuery();
+                BancoDados.obterInstancia().confirmarTransacao();*/
+
+                LerDoBanco();
+                atualizarGrid();
+                limpar();
+            }
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-            /*Fornecedor fornecedor = new Fornecedor();
-            if (dgvFornecedor.SelectedRows[0].Cells[0].Value != null)
+            if (dgvFornecedor.SelectedRows.Count == 0)
             {
-                fornecedor.idFornecedor = int.Parse(dgvFornecedor.SelectedRows[0].Cells[0].Value.ToString());
-                BancoDados.obterInstancia().conectar();
-                ControladorCadastroFornecedor controlador = new ControladorCadastroFornecedor();
-                controlador.excluir(fornecedor);
-                BancoDados.obterInstancia().desconectar();
-                LerDoBanco();
-                atualizarGrid();
-            }*/
+                MessageBox.Show("Nenhum fornecedor selecionado!", "atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                Fornecedor fornecedor = new Fornecedor();
+                if (dgvFornecedor.SelectedRows[0].Cells[0].Value != null)
+                {
+                    fornecedor.idFornecedor = int.Parse(dgvFornecedor.SelectedRows[0].Cells[0].Value.ToString());
+                    BancoDados.obterInstancia().conectar();
+                    ControladorCadastroFornecedor controlador = new ControladorCadastroFornecedor();
+                    controlador.excluir(fornecedor);
+                    BancoDados.obterInstancia().desconectar();
+                    LerDoBanco();
+                    atualizarGrid();
+                }
+            }
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -212,6 +261,44 @@ namespace aaaaaaa.ui
                     }
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (dgvFornecedor.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Nenhum cliente selecionado!", "atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else
+            {
+                String nomeFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[1].Value;
+                String telefoneFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[2].Value;
+                String emailFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[3].Value;
+                String ruaFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[4].Value;
+                String numeroFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[5].Value;
+                String complementoFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[6].Value;
+                String bairroFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[7].Value;
+                String cidadeFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[8].Value;
+                String ufFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[9].Value;
+                String cepFornecedor = (string)dgvFornecedor.SelectedRows[0].Cells[10].Value;
+
+                txtNome.Text = nomeFornecedor;
+                txtTelefone.Text = telefoneFornecedor;
+                txtEmail.Text = emailFornecedor;
+                txtRua.Text = ruaFornecedor;
+                txtNumero.Text = numeroFornecedor;
+                txtComplemento.Text = complementoFornecedor;
+                txtBairro.Text = bairroFornecedor;
+                txtCidade.Text = cidadeFornecedor;
+                cbUf.Text = ufFornecedor;
+                txtCep.Text = cepFornecedor;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            limpar();
         }
     }
 }

@@ -30,6 +30,8 @@ namespace aaaaaaa.ui
         private void InitializeComponent()
         {
             this.panel6 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
@@ -54,11 +56,11 @@ namespace aaaaaaa.ui
             this.unidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_fornecedor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txtPesquisar = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.rbId = new System.Windows.Forms.RadioButton();
             this.rbNome = new System.Windows.Forms.RadioButton();
+            this.txtPesquisar = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -70,6 +72,8 @@ namespace aaaaaaa.ui
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.panel6.Controls.Add(this.button2);
+            this.panel6.Controls.Add(this.button1);
             this.panel6.Controls.Add(this.btnCadastrar);
             this.panel6.Controls.Add(this.btnAlterar);
             this.panel6.Controls.Add(this.btnSair);
@@ -78,6 +82,30 @@ namespace aaaaaaa.ui
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(240, 687);
             this.panel6.TabIndex = 24;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button2.Location = new System.Drawing.Point(28, 428);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(170, 70);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Limpar";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button1.Location = new System.Drawing.Point(28, 116);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(170, 70);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Selecionar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnCadastrar
             // 
@@ -95,7 +123,7 @@ namespace aaaaaaa.ui
             // 
             this.btnAlterar.BackColor = System.Drawing.Color.White;
             this.btnAlterar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnAlterar.Location = new System.Drawing.Point(28, 127);
+            this.btnAlterar.Location = new System.Drawing.Point(28, 212);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(170, 70);
             this.btnAlterar.TabIndex = 8;
@@ -107,7 +135,7 @@ namespace aaaaaaa.ui
             // 
             this.btnSair.BackColor = System.Drawing.Color.White;
             this.btnSair.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnSair.Location = new System.Drawing.Point(28, 331);
+            this.btnSair.Location = new System.Drawing.Point(28, 537);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(170, 70);
             this.btnSair.TabIndex = 9;
@@ -119,7 +147,7 @@ namespace aaaaaaa.ui
             // 
             this.btnExcluir.BackColor = System.Drawing.Color.White;
             this.btnExcluir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnExcluir.Location = new System.Drawing.Point(28, 236);
+            this.btnExcluir.Location = new System.Drawing.Point(28, 320);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(170, 70);
             this.btnExcluir.TabIndex = 10;
@@ -314,24 +342,6 @@ namespace aaaaaaa.ui
             this.panel2.Size = new System.Drawing.Size(638, 148);
             this.panel2.TabIndex = 8;
             // 
-            // txtPesquisar
-            // 
-            this.txtPesquisar.Location = new System.Drawing.Point(91, 23);
-            this.txtPesquisar.Name = "txtPesquisar";
-            this.txtPesquisar.Size = new System.Drawing.Size(529, 27);
-            this.txtPesquisar.TabIndex = 1;
-            this.txtPesquisar.TextChanged += new System.EventHandler(this.txtPesquisar_TextChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 26);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 20);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Pesquisar:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.rbId);
@@ -362,6 +372,24 @@ namespace aaaaaaa.ui
             this.rbNome.TabStop = true;
             this.rbNome.Text = "Nome";
             this.rbNome.UseVisualStyleBackColor = true;
+            // 
+            // txtPesquisar
+            // 
+            this.txtPesquisar.Location = new System.Drawing.Point(91, 23);
+            this.txtPesquisar.Name = "txtPesquisar";
+            this.txtPesquisar.Size = new System.Drawing.Size(529, 27);
+            this.txtPesquisar.TabIndex = 1;
+            this.txtPesquisar.TextChanged += new System.EventHandler(this.txtPesquisar_TextChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 26);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(73, 20);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Pesquisar:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Frm_cadastroProduto
             // 
@@ -418,5 +446,7 @@ namespace aaaaaaa.ui
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.RadioButton rbId;
         private System.Windows.Forms.RadioButton rbNome;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }

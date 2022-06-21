@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nwWz4uRxhvd2q5+RkLyt1RHJCBhFh8hussmytWXMihlfCXJMmKEyoOYLFnxcNSpJGR0jh0Vx40peK38eFBtbNg==",
+  "dgSpecHash": "5d4FPsmRn7WmKmBP/Pf5EaKMEdeRMfccS1tx4eBi2cdNVHtS2N0BY1eecDDvGOKGgBt/NTE9VB9vqjgMI/xpLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bianc\\OneDrive\\Área de Trabalho\\Sistema-de-Comercio-de-Produtos-bianca\\aaaaaaa\\aaaaaaa.csproj",
+  "projectFilePath": "C:\\Users\\bianc\\OneDrive\\Área de Trabalho\\mm\\Sistema-de-Comercio-de-Produtos\\aaaaaaa\\aaaaaaa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bianc\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\bianc\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",

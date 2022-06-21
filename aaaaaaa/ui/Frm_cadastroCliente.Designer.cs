@@ -30,6 +30,8 @@ namespace aaaaaaa.ui
         private void InitializeComponent()
         {
             this.panel6 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
@@ -89,6 +91,8 @@ namespace aaaaaaa.ui
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.panel6.Controls.Add(this.button2);
+            this.panel6.Controls.Add(this.button1);
             this.panel6.Controls.Add(this.btnCadastrar);
             this.panel6.Controls.Add(this.btnAlterar);
             this.panel6.Controls.Add(this.btnSair);
@@ -97,6 +101,30 @@ namespace aaaaaaa.ui
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(240, 755);
             this.panel6.TabIndex = 27;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button2.Location = new System.Drawing.Point(28, 333);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(170, 70);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Limpar";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button1.Location = new System.Drawing.Point(28, 122);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(170, 70);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Selecionar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btnCadastrar
             // 
@@ -114,7 +142,7 @@ namespace aaaaaaa.ui
             // 
             this.btnAlterar.BackColor = System.Drawing.Color.White;
             this.btnAlterar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnAlterar.Location = new System.Drawing.Point(28, 127);
+            this.btnAlterar.Location = new System.Drawing.Point(28, 230);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(170, 70);
             this.btnAlterar.TabIndex = 8;
@@ -126,7 +154,7 @@ namespace aaaaaaa.ui
             // 
             this.btnSair.BackColor = System.Drawing.Color.White;
             this.btnSair.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnSair.Location = new System.Drawing.Point(28, 331);
+            this.btnSair.Location = new System.Drawing.Point(28, 544);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(170, 70);
             this.btnSair.TabIndex = 9;
@@ -138,7 +166,7 @@ namespace aaaaaaa.ui
             // 
             this.btnExcluir.BackColor = System.Drawing.Color.White;
             this.btnExcluir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnExcluir.Location = new System.Drawing.Point(28, 236);
+            this.btnExcluir.Location = new System.Drawing.Point(28, 438);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(170, 70);
             this.btnExcluir.TabIndex = 10;
@@ -643,5 +671,7 @@ namespace aaaaaaa.ui
         private System.Windows.Forms.DataGridViewTextBoxColumn cep;
         private System.Windows.Forms.ComboBox cbUf;
         private System.Windows.Forms.RadioButton rbId;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
